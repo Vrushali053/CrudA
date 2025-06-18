@@ -1,0 +1,116 @@
+/* Container */
+.user-table-container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+}
+
+/* Form Section */
+.user-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.user-form input {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  width: 200px;
+  transition: border 0.2s ease;
+}
+
+.user-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Buttons */
+.user-form button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-form .save {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.user-form .save:hover {
+  background-color: #0056b3;
+}
+
+.user-form .clear {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.user-form .clear:hover {
+  background-color: #a71d2a;
+}
+
+/* Table Styles */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.user-table th,
+.user-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  font-size: 15px;
+}
+
+.user-table th {
+  background-color: #f1f1f1;
+  font-weight: 600;
+}
+
+/* Last row border cleanup */
+.user-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Action Buttons in table */
+.user-table td button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.user-table td button:nth-child(1) {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.user-table td button:nth-child(1):hover {
+  background-color: #e0a800;
+}
+
+.user-table td button:nth-child(2) {
+  background-color: #dc3545;
+  color: white;
+}
+
+.user-table td button:nth-child(2):hover {
+  background-color: #bd2130;
+}
