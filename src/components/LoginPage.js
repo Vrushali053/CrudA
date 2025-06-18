@@ -1,32 +1,3 @@
-// import React, { useState } from "react";
-// import { useNavigate } from "react-router-dom";
-
-// const LoginPage = ({ onLogin }) => {
-//   const [username, setUsername] = useState("");
-//   const [password, setPassword] = useState("");
-//   const navigate = useNavigate();
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     if (username === "admin" && password === "admin") {
-//       onLogin();
-//       navigate("/users");
-//     } else {
-//       alert("Invalid credentials");
-//     }
-//   };
-
-//   return (
-//     <div style={{ marginTop: "100px", textAlign: "center" }}>
-//       <h2>Login</h2>
-//       <form onSubmit={handleSubmit}>
-//         <input value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Username" /><br /><br />
-//         <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" /><br /><br />
-//         <button type="submit">Login</button>
-//       </form>
-//     </div>
-//   );
-// };
 
 // export default LoginPage;
 import React, { useState } from "react";
